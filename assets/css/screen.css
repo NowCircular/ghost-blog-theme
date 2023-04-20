@@ -38,7 +38,7 @@ production stylesheet in assets/built/screen.css
     --color-yellow: #f1ce18;
     --color-red: #ee1724;
     --color-darkgrey: #15171A;
-    --color-midgrey: #738a94;
+    --color-midgrey: #5E537C;
     --color-lightgrey: #f1f1f1;
     --color-secondary-text: #979797;
     --color-border: #e1e1e1;
@@ -1347,7 +1347,7 @@ headings, text, images and lists. We deal with cards lower down. */
 /* [id] represents all headings h1-h6, reset all margins */
 .gh-content > [id] {
     margin: 0;
-    color: var(--color-darkgrey);
+    color: var(--color-purple);
 }
 
 .has-serif-title .gh-content > [id] {
@@ -1378,7 +1378,7 @@ is the very first element in the post content */
 
 /* Now the content typography styles */
 .gh-content a {
-    color: var(--ghost-accent-color);
+    color: var(--color-pink);
     text-decoration: underline;
     word-break: break-word;
 }

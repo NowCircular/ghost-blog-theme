@@ -134,6 +134,7 @@ a:hover {
 b,
 strong {
     font-weight: bold;
+    color: var(--color-purple);
 }
 i,
 em,
@@ -275,7 +276,7 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-    color: var(--color-darkgrey);
+    color: var(--color-midgrey);
     font-family: var(--font-sans);
     font-size: 1.6rem;
     line-height: 1.6em;
